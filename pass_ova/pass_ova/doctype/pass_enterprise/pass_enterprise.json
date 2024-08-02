@@ -1,0 +1,100 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "hash",
+ "creation": "2024-07-02 18:18:15.882502",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_ujyl",
+  "enterprise_name",
+  "column_break_wgep",
+  "edrpou",
+  "column_break_nqpa",
+  "term_work_execution"
+ ],
+ "fields": [
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "enterprise_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Enterprise Name"
+  },
+  {
+   "fieldname": "column_break_wgep",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_ujyl",
+   "fieldtype": "Section Break",
+   "hide_border": 1
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "edrpou",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "EDRPOU",
+   "unique": 1
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "term_work_execution",
+   "fieldtype": "Date",
+   "label": "Term Work Execution"
+  },
+  {
+   "fieldname": "column_break_nqpa",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [
+  {
+   "link_doctype": "Pass Customers",
+   "link_fieldname": "enterprise"
+  }
+ ],
+ "modified": "2024-07-25 15:17:35.575690",
+ "modified_by": "Administrator",
+ "module": "Pass Ova",
+ "name": "Pass Enterprise",
+ "naming_rule": "Random",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Accounts Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "search_fields": "edrpou",
+ "show_title_field_in_link": 1,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "enterprise_name",
+ "track_changes": 1
+}

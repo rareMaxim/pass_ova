@@ -1,0 +1,36 @@
+{
+ "cards": [
+  {
+   "card": "\u041f\u0435\u0440\u0435\u043f\u0443\u0441\u0442\u043a\u0438"
+  },
+  {
+   "card": "\u041f\u0456\u0434\u043f\u0440\u0438\u0454\u043c\u0441\u0442\u0432\u0430"
+  }
+ ],
+ "charts": [
+  {
+   "chart": "Pass Ova People Populate HeatMap",
+   "width": "Full"
+  },
+  {
+   "chart": "Pass Ova Speed DB Populate",
+   "width": "Half"
+  },
+  {
+   "chart": "PassOva by Enterprice",
+   "width": "Half"
+  }
+ ],
+ "creation": "2024-07-24 15:33:06.952426",
+ "dashboard_name": "Pass Ova",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 1,
+ "is_default": 1,
+ "is_standard": 1,
+ "modified": "2024-07-24 16:31:41.741122",
+ "modified_by": "Administrator",
+ "module": "Pass Ova",
+ "name": "Pass Ova",
+ "owner": "Administrator"
+}

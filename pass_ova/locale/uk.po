@@ -1,0 +1,127 @@
+# Ukrainian translations for Pass Ova.
+# Copyright (C) 2024 Maxim S
+# This file is distributed under the same license as the Pass Ova project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Pass Ova VERSION\n"
+"Report-Msgid-Bugs-To: maks4a@gmail.com\n"
+"POT-Creation-Date: 2024-07-18 11:35+0202\n"
+"PO-Revision-Date: 2024-07-02 18:42+0202\n"
+"Last-Translator: maks4a@gmail.com\n"
+"Language: uk\n"
+"Language-Team: maks4a@gmail.com\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.13.1\n"
+
+#. Label of the auditor (Data) field in DocType 'Pass Customers'
+#: pass_ova/doctype/pass_customers/pass_customers.json
+msgid "Auditor"
+msgstr "Відповідальна особа"
+
+#. Label of the birthday (Date) field in DocType 'Pass Customers'
+#: pass_ova/doctype/pass_customers/pass_customers.json
+msgid "Birthday "
+msgstr "Народився"
+
+#. Label of the count (Int) field in DocType 'Pass Enterprise'
+#: pass_ova/doctype/pass_enterprise/pass_enterprise.json
+msgid "Count"
+msgstr "Кількість"
+
+#. Label of the deprecated_tab (Tab Break) field in DocType 'Pass Customers'
+#. Label of the deprecated_tab (Tab Break) field in DocType 'Pass Enterprise'
+#: pass_ova/doctype/pass_customers/pass_customers.json
+#: pass_ova/doctype/pass_enterprise/pass_enterprise.json
+msgid "Deprecated"
+msgstr "Неактуальне"
+
+#. Label of the description (Small Text) field in DocType 'Pass Customers'
+#. Label of the description (Data) field in DocType 'Pass Enterprise'
+#: pass_ova/doctype/pass_customers/pass_customers.json
+#: pass_ova/doctype/pass_enterprise/pass_enterprise.json
+msgid "Description"
+msgstr "Примітка"
+
+#. Label of the edrpou (Data) field in DocType 'Pass Enterprise'
+#: pass_ova/doctype/pass_enterprise/pass_enterprise.json
+msgid "EDRPOU"
+msgstr "ЄДРПОУ"
+
+#. Label of the enterprise (Link) field in DocType 'Pass Customers'
+#: pass_ova/doctype/pass_customers/pass_customers.json
+msgid "Enterprise"
+msgstr "Підприємство"
+
+#. Label of the enterprise_name (Data) field in DocType 'Pass Enterprise'
+#: pass_ova/doctype/pass_enterprise/pass_enterprise.json
+msgid "Enterprise Name"
+msgstr "Підприємство"
+
+#. Label of the enterprise_letter (Attach) field in DocType 'Pass Enterprise'
+#: pass_ova/doctype/pass_enterprise/pass_enterprise.json
+msgid "Enterprise letter"
+msgstr "Лист підприємства"
+
+#. Label of the full_name (Data) field in DocType 'Pass Customers'
+#: pass_ova/doctype/pass_customers/pass_customers.json
+msgid "Full Name"
+msgstr "ПІБ"
+
+#. Name of a DocType
+#: pass_ova/doctype/pass_customers/pass_customers.json
+msgid "Pass Customers"
+msgstr "Люди"
+
+#. Label of a shortcut in the PassOVA Workspace
+#: pass_ova/workspace/passova/passova.json
+msgctxt "Pass Customers"
+msgid "Pass Customers"
+msgstr "Люди"
+
+#. Name of a DocType
+#: pass_ova/doctype/pass_enterprise/pass_enterprise.json
+msgid "Pass Enterprise"
+msgstr "Підприємства"
+
+#. Label of a shortcut in the PassOVA Workspace
+#: pass_ova/workspace/passova/passova.json
+msgctxt "Pass Enterprise"
+msgid "Pass Enterprise"
+msgstr "Підприємства"
+
+#. Name of a Workspace
+#: pass_ova/workspace/passova/passova.json
+msgid "PassOVA"
+msgstr "Перепустки ОВА"
+
+#. Label of the passport (Small Text) field in DocType 'Pass Customers'
+#: pass_ova/doctype/pass_customers/pass_customers.json
+msgid "Passport"
+msgstr "Паспорт"
+
+#. Label of the responsible_person (Data) field in DocType 'Pass Enterprise'
+#: pass_ova/doctype/pass_enterprise/pass_enterprise.json
+msgid "Responsible person"
+msgstr "Відповідальна особа"
+
+#. Name of a role
+#: pass_ova/doctype/pass_customers/pass_customers.json
+#: pass_ova/doctype/pass_enterprise/pass_enterprise.json
+msgid "System Manager"
+msgstr ""
+
+#. Label of the term_work_execution (Date) field in DocType 'Pass Customers'
+#: pass_ova/doctype/pass_customers/pass_customers.json
+msgid "Term Work Execution"
+msgstr "Строк виконання робіт"
+
+#. Name of a role
+#: pass_ova/doctype/pass_customers/pass_customers.json
+msgid "Website Manager"
+msgstr ""
+

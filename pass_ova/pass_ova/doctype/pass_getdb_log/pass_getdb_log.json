@@ -1,0 +1,157 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-07-24 19:32:59.395940",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "general_section",
+  "ip",
+  "column_break_bjyf",
+  "datetime",
+  "column_break_scel",
+  "os_version",
+  "device_section",
+  "device_model",
+  "device_username",
+  "column_break_fbep",
+  "device_name",
+  "device_uid",
+  "package_section",
+  "package_build",
+  "package_display_version",
+  "package_filename",
+  "column_break_mqrx",
+  "package_id",
+  "package_name",
+  "package_version"
+ ],
+ "fields": [
+  {
+   "fieldname": "datetime",
+   "fieldtype": "Datetime",
+   "in_list_view": 1,
+   "label": "DateTime",
+   "options": "Today",
+   "read_only": 1
+  },
+  {
+   "fieldname": "ip",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "IP",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_bjyf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "device_section",
+   "fieldtype": "Section Break",
+   "label": "Device"
+  },
+  {
+   "fieldname": "os_version",
+   "fieldtype": "Data",
+   "label": "OS"
+  },
+  {
+   "fieldname": "device_model",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Device Model"
+  },
+  {
+   "fieldname": "device_name",
+   "fieldtype": "Data",
+   "label": "Device Name"
+  },
+  {
+   "fieldname": "device_uid",
+   "fieldtype": "Data",
+   "label": "Device UID"
+  },
+  {
+   "fieldname": "column_break_fbep",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "device_username",
+   "fieldtype": "Data",
+   "label": "Device Username"
+  },
+  {
+   "fieldname": "general_section",
+   "fieldtype": "Section Break",
+   "label": "General"
+  },
+  {
+   "fieldname": "column_break_scel",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "package_section",
+   "fieldtype": "Section Break",
+   "label": "Package"
+  },
+  {
+   "fieldname": "package_build",
+   "fieldtype": "Data",
+   "label": "Package Build"
+  },
+  {
+   "fieldname": "package_display_version",
+   "fieldtype": "Data",
+   "label": "Package Display Version"
+  },
+  {
+   "fieldname": "package_filename",
+   "fieldtype": "Data",
+   "label": "Package FileName"
+  },
+  {
+   "fieldname": "column_break_mqrx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "package_id",
+   "fieldtype": "Data",
+   "label": "Package ID"
+  },
+  {
+   "fieldname": "package_name",
+   "fieldtype": "Data",
+   "label": "Package Name"
+  },
+  {
+   "fieldname": "package_version",
+   "fieldtype": "Data",
+   "label": "Package Version"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-07-25 15:52:40.296165",
+ "modified_by": "Administrator",
+ "module": "Pass Ova",
+ "name": "Pass GetDB Log",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

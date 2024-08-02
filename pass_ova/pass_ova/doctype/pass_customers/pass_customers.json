@@ -1,0 +1,156 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "hash",
+ "creation": "2024-07-01 15:38:29.864009",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_fymc",
+  "enterprise",
+  "column_break_ccvz",
+  "full_name",
+  "column_break_xsto",
+  "birthday",
+  "column_break_lsdd",
+  "term_work_execution",
+  "section_break_tyma",
+  "enterprice_manager",
+  "section_break_yesu",
+  "passport",
+  "column_break_kcti",
+  "description"
+ ],
+ "fields": [
+  {
+   "columns": 2,
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Full Name"
+  },
+  {
+   "columns": 1,
+   "fieldname": "birthday",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Birthday "
+  },
+  {
+   "columns": 2,
+   "fieldname": "passport",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Passport"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "label": "Description"
+  },
+  {
+   "fieldname": "section_break_yesu",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_kcti",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_fymc",
+   "fieldtype": "Section Break"
+  },
+  {
+   "columns": 2,
+   "fieldname": "enterprise",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Enterprise",
+   "options": "Pass Enterprise",
+   "search_index": 1
+  },
+  {
+   "fieldname": "column_break_ccvz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_xsto",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "enterprise.term_work_execution",
+   "fetch_if_empty": 1,
+   "fieldname": "term_work_execution",
+   "fieldtype": "Date",
+   "label": "Term Work Execution"
+  },
+  {
+   "fieldname": "column_break_lsdd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_tyma",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "enterprice_manager",
+   "fieldtype": "Link",
+   "label": "Enterprice Manager",
+   "options": "Pass Auditor"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-07-25 15:16:56.632311",
+ "modified_by": "Administrator",
+ "module": "Pass Ova",
+ "name": "Pass Customers",
+ "naming_rule": "Random",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Website Manager",
+   "share": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Accounts Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "show_title_field_in_link": 1,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "full_name",
+ "track_changes": 1
+}

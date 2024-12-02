@@ -14,8 +14,7 @@ class PassEnterprise(Document):
 	if TYPE_CHECKING:
 		from frappe.types import DF
 
-		edrpou: DF.Data | None
-		enterprise_name: DF.Data | None
+		tax_id: DF.Data | None
 		term_work_execution: DF.Date | None
 	# end: auto-generated types
 

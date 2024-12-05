@@ -29,28 +29,26 @@ def last_db_update() -> datetime:
 
 @frappe.whitelist(allow_guest=True)
 def load_db():
-    print(frappe.as_json(frappe.request.headers))
-    print(frappe.request.headers["X-Real-Ip"])
     # create a new document
     doc = frappe.get_doc(
         {
             "doctype": "Pass GetDB Log",
-            "ip": frappe.request.headers["X-Real-Ip"],
+            "ip": frappe.request.headers.get("X-Real-Ip", ""),
             "datetime": frappe.utils.now_datetime(),
-            "os_version": frappe.request.headers["os-version"],
+            "os_version": frappe.request.headers.get("os-version", ""),
             #  device
-            "device_model": frappe.request.headers["device-model"],
-            "device_name": frappe.request.headers["device-name"],
-            "device_username": frappe.request.headers["device-username"],
-            "device_uid": frappe.request.headers["device-uid"],
-            "device_manufacturer": frappe.request.headers["device-manufacturer"],
+            "device_model": frappe.request.headers.get("device-model", ""),
+            "device_name": frappe.request.headers.get("device-name", ""),
+            "device_username": frappe.request.headers.get("device-username", ""),
+            "device_uid": frappe.request.headers.get("device-uid", ""),
+            "device_manufacturer": frappe.request.headers.get("device-manufacturer", ""),
             # Package
-            "package_build": frappe.request.headers["PackageBuild"],
-            "package_display_version": frappe.request.headers["PackageDisplayVersion"],
-            "package_filename": frappe.request.headers["PackageFileName"],
-            "package_id": frappe.request.headers["PackageID"],
-            "package_name": frappe.request.headers["PackageName"],
-            "package_version": frappe.request.headers["PackageVersion"],
+            "package_build": frappe.request.headers.get("PackageBuild", ""),
+            "package_display_version": frappe.request.headers.get("PackageDisplayVersion", ""),
+            "package_filename": frappe.request.headers.get("PackageFileName", ""),
+            "package_id": frappe.request.headers.get("PackageID", ""),
+            "package_name": frappe.request.headers.get("PackageName", ""),
+            "package_version": frappe.request.headers.get("PackageVersion", ""),
         }
     )
     doc.insert(ignore_permissions=True)

@@ -67,12 +67,6 @@ def load_db():
         limit_page_length=10000,
         order_by="full_name asc",
     )
-    for customer in customers:
-        if customer.enterprise:
-            enterprise_title = frappe.get_value(
-                "Pass Enterprise", customer.enterprise, "enterprise_name"
-            )
-            customer.enterprise = enterprise_title
     result = {}
     result.update({"last_update": last_db_update()})
     result.update({"data": customers})

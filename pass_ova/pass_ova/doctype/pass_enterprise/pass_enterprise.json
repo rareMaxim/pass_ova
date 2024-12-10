@@ -1,5 +1,6 @@
 {
  "actions": [],
+ "allow_events_in_timeline": 1,
  "allow_import": 1,
  "allow_rename": 1,
  "autoname": "prompt",
@@ -27,7 +28,7 @@
    "allow_in_quick_entry": 1,
    "fieldname": "term_work_execution",
    "fieldtype": "Date",
-   "label": "Term Work Execution"
+   "label": "\u0421\u0442\u0440\u043e\u043a \u0432\u0438\u043a\u043e\u043d\u0430\u043d\u043d\u044f \u0440\u043e\u0431\u0456\u0442"
   },
   {
    "fieldname": "column_break_nqpa",
@@ -39,7 +40,7 @@
    "fieldtype": "Data",
    "in_list_view": 1,
    "in_standard_filter": 1,
-   "label": "Tax ID",
+   "label": "\u0404\u0414\u0420\u041f\u041e\u0423",
    "unique": 1
   }
  ],
@@ -50,7 +51,7 @@
    "link_fieldname": "enterprise"
   }
  ],
- "modified": "2024-12-02 22:31:38.148725",
+ "modified": "2024-12-10 20:32:54.852715",
  "modified_by": "Administrator",
  "module": "Pass Ova",
  "name": "Pass Enterprise",
@@ -87,5 +88,7 @@
  "sort_field": "creation",
  "sort_order": "DESC",
  "states": [],
- "track_changes": 1
+ "track_changes": 1,
+ "track_seen": 1,
+ "track_views": 1
 }

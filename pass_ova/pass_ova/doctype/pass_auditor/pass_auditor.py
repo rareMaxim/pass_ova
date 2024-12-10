@@ -14,7 +14,7 @@ class PassAuditor(Document):
 	if TYPE_CHECKING:
 		from frappe.types import DF
 
-
+		tax_id: DF.Data | None
 	# end: auto-generated types
 
 	pass

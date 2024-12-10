@@ -1,22 +1,27 @@
 {
  "actions": [],
+ "allow_import": 1,
  "allow_rename": 1,
  "autoname": "prompt",
  "creation": "2024-07-19 11:47:30.634384",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "section_break_ej85"
+  "tax_id"
  ],
  "fields": [
   {
-   "fieldname": "section_break_ej85",
-   "fieldtype": "Section Break"
+   "allow_in_quick_entry": 1,
+   "fieldname": "tax_id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "\u0404\u0414\u0420\u041f\u041e\u0423"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-07-25 15:18:23.956717",
+ "modified": "2024-12-10 20:34:04.973274",
  "modified_by": "Administrator",
  "module": "Pass Ova",
  "name": "Pass Auditor",
@@ -49,7 +54,11 @@
   }
  ],
  "quick_entry": 1,
+ "search_fields": "tax_id",
  "sort_field": "creation",
  "sort_order": "DESC",
- "states": []
+ "states": [],
+ "track_changes": 1,
+ "track_seen": 1,
+ "track_views": 1
 }

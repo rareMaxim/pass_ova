@@ -1,5 +1,6 @@
 {
  "actions": [],
+ "allow_events_in_timeline": 1,
  "allow_import": 1,
  "allow_rename": 1,
  "autoname": "hash",
@@ -10,13 +11,15 @@
   "section_break_fymc",
   "enterprise",
   "column_break_ccvz",
+  "tax_id",
+  "section_break_bhya",
   "full_name",
   "column_break_xsto",
   "birthday",
-  "column_break_lsdd",
-  "term_work_execution",
   "section_break_tyma",
   "enterprice_manager",
+  "column_break_lsdd",
+  "term_work_execution",
   "section_break_yesu",
   "passport",
   "column_break_kcti",
@@ -24,33 +27,36 @@
  ],
  "fields": [
   {
+   "allow_in_quick_entry": 1,
    "columns": 2,
    "fieldname": "full_name",
    "fieldtype": "Data",
    "in_list_view": 1,
    "in_standard_filter": 1,
-   "label": "Full Name"
+   "label": "\u041f\u0406\u0411"
   },
   {
+   "allow_in_quick_entry": 1,
    "columns": 1,
    "fieldname": "birthday",
    "fieldtype": "Date",
    "in_list_view": 1,
    "in_standard_filter": 1,
-   "label": "Birthday "
+   "label": "\u0414\u0430\u0442\u0430 \u043d\u0430\u0440\u043e\u0434\u0436\u0435\u043d\u043d\u044f"
   },
   {
+   "allow_in_quick_entry": 1,
    "columns": 2,
    "fieldname": "passport",
    "fieldtype": "Small Text",
    "in_list_view": 1,
    "in_standard_filter": 1,
-   "label": "Passport"
+   "label": "\u041f\u0430\u0441\u043f\u043e\u0440\u0442\u043d\u0456 \u0434\u0430\u043d\u0456"
   },
   {
    "fieldname": "description",
    "fieldtype": "Small Text",
-   "label": "Description"
+   "label": "\u0406\u043d\u0448\u0456 \u0434\u0430\u043d\u0456"
   },
   {
    "fieldname": "section_break_yesu",
@@ -65,12 +71,13 @@
    "fieldtype": "Section Break"
   },
   {
+   "allow_in_quick_entry": 1,
    "columns": 2,
    "fieldname": "enterprise",
    "fieldtype": "Link",
    "in_list_view": 1,
    "in_standard_filter": 1,
-   "label": "Enterprise",
+   "label": "\u041f\u0456\u0434\u043f\u0440\u0438\u0454\u043c\u0441\u0442\u0432\u043e",
    "options": "Pass Enterprise",
    "search_index": 1
   },
@@ -83,11 +90,12 @@
    "fieldtype": "Column Break"
   },
   {
+   "allow_in_quick_entry": 1,
    "fetch_from": "enterprise.term_work_execution",
    "fetch_if_empty": 1,
    "fieldname": "term_work_execution",
    "fieldtype": "Date",
-   "label": "Term Work Execution"
+   "label": "\u0421\u0442\u0440\u043e\u043a \u0432\u0438\u043a\u043e\u043d\u0430\u043d\u043d\u044f \u0440\u043e\u0431\u0456\u0442"
   },
   {
    "fieldname": "column_break_lsdd",
@@ -98,15 +106,27 @@
    "fieldtype": "Section Break"
   },
   {
+   "allow_in_quick_entry": 1,
    "fieldname": "enterprice_manager",
    "fieldtype": "Link",
-   "label": "Enterprice Manager",
+   "label": "\u0417\u0430\u043c\u043e\u0432\u043d\u0438\u043a \u0440\u043e\u0431\u0456\u0442",
    "options": "Pass Auditor"
+  },
+  {
+   "fetch_from": "enterprise.tax_id",
+   "fieldname": "tax_id",
+   "fieldtype": "Data",
+   "is_virtual": 1,
+   "label": "\u0404\u0414\u0420\u041f\u041e\u0423"
+  },
+  {
+   "fieldname": "section_break_bhya",
+   "fieldtype": "Section Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-07-25 15:16:56.632311",
+ "modified": "2024-12-10 20:29:01.550451",
  "modified_by": "Administrator",
  "module": "Pass Ova",
  "name": "Pass Customers",
@@ -147,10 +167,14 @@
    "write": 1
   }
  ],
+ "quick_entry": 1,
+ "search_fields": "passport",
  "show_title_field_in_link": 1,
  "sort_field": "creation",
  "sort_order": "DESC",
  "states": [],
  "title_field": "full_name",
- "track_changes": 1
+ "track_changes": 1,
+ "track_seen": 1,
+ "track_views": 1
 }

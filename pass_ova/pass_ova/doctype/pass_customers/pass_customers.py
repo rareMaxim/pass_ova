@@ -20,6 +20,7 @@ class PassCustomers(Document):
 		enterprise: DF.Link | None
 		full_name: DF.Data | None
 		passport: DF.SmallText | None
+		tax_id: DF.Data | None
 		term_work_execution: DF.Date | None
 	# end: auto-generated types
 

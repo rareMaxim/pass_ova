@@ -1,11 +1,12 @@
 {
+ "app": "pass_ova",
  "charts": [
   {
    "chart_name": "DB Log Heatmap",
    "label": "DB Log Heatmap"
   }
  ],
- "content": "[{\"id\":\"rVCpd_I9Rk\",\"type\":\"header\",\"data\":{\"text\":\"<span style=\\\"font-size: 18px; letter-spacing: 0.18px;\\\"><b>\u0421\u0438\u0441\u0442\u0435\u043c\u0430 \u043a\u0435\u0440\u0443\u0432\u0430\u043d\u043d\u044f \u043f\u0435\u0440\u0435\u043f\u0443\u0441\u0442\u043a\u0430\u043c\u0438 \u041e\u0412\u0410</b></span>\",\"col\":12}},{\"id\":\"6R1ErlmGT_\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Pass Customers\",\"col\":3}},{\"id\":\"rKIdu1F0cX\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Pass Enterprise\",\"col\":3}},{\"id\":\"TIzxTeqx2C\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"\u0420\u043e\u0437\u043f\u043e\u0440\u044f\u0434\u043d\u0438\u043a\",\"col\":3}},{\"id\":\"ddush8LNtd\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"wGcsA0cEWE\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"\u0414\u0430\u0448\u0431\u043e\u0440\u0434\",\"col\":3}},{\"id\":\"TDpiYzUqYF\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"\u041b\u043e\u0433\",\"col\":3}},{\"id\":\"BxNqSzXNxn\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"4DF7PPsFaE\",\"type\":\"chart\",\"data\":{\"chart_name\":\"DB Log Heatmap\",\"col\":12}}]",
+ "content": "[{\"id\":\"rVCpd_I9Rk\",\"type\":\"header\",\"data\":{\"text\":\"<span style=\\\"font-size: 18px; letter-spacing: 0.18px;\\\"><b>\u0421\u0438\u0441\u0442\u0435\u043c\u0430 \u043a\u0435\u0440\u0443\u0432\u0430\u043d\u043d\u044f \u043f\u0435\u0440\u0435\u043f\u0443\u0441\u0442\u043a\u0430\u043c\u0438 \u041e\u0412\u0410</b></span>\",\"col\":12}},{\"id\":\"6R1ErlmGT_\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Pass Customers\",\"col\":3}},{\"id\":\"rKIdu1F0cX\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Pass Enterprise\",\"col\":3}},{\"id\":\"ddush8LNtd\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"wGcsA0cEWE\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"\u0414\u0430\u0448\u0431\u043e\u0440\u0434\",\"col\":3}},{\"id\":\"TDpiYzUqYF\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"\u041b\u043e\u0433\",\"col\":3}},{\"id\":\"BxNqSzXNxn\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"4DF7PPsFaE\",\"type\":\"chart\",\"data\":{\"chart_name\":\"DB Log Heatmap\",\"col\":12}}]",
  "creation": "2024-07-01 15:37:29.828560",
  "custom_blocks": [],
  "docstatus": 0,
@@ -18,7 +19,7 @@
  "is_hidden": 0,
  "label": "PassOVA",
  "links": [],
- "modified": "2024-07-30 16:50:53.042244",
+ "modified": "2024-12-10 21:31:56.585185",
  "modified_by": "Administrator",
  "module": "Pass Ova",
  "name": "PassOVA",
@@ -60,15 +61,8 @@
    "label": "\u0414\u0430\u0448\u0431\u043e\u0440\u0434",
    "link_to": "Pass Ova",
    "type": "Dashboard"
-  },
-  {
-   "color": "Grey",
-   "doc_view": "List",
-   "label": "\u0420\u043e\u0437\u043f\u043e\u0440\u044f\u0434\u043d\u0438\u043a",
-   "link_to": "Pass Auditor",
-   "stats_filter": "[]",
-   "type": "DocType"
   }
  ],
- "title": "PassOVA"
+ "title": "PassOVA",
+ "type": "Workspace"
 }

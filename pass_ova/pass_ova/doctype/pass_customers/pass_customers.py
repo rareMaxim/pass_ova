@@ -17,6 +17,7 @@ class PassCustomers(Document):
 		birthday: DF.Date | None
 		description: DF.SmallText | None
 		enterprice_manager: DF.Link | None
+		enterprice_manager_tax_id: DF.Data | None
 		enterprise: DF.Link | None
 		full_name: DF.Data | None
 		passport: DF.SmallText | None

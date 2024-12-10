@@ -20,6 +20,8 @@
   "enterprice_manager",
   "column_break_lsdd",
   "term_work_execution",
+  "column_break_tcxx",
+  "enterprice_manager_tax_id",
   "section_break_yesu",
   "passport",
   "column_break_kcti",
@@ -77,7 +79,7 @@
    "fieldtype": "Link",
    "in_list_view": 1,
    "in_standard_filter": 1,
-   "label": "\u041f\u0456\u0434\u043f\u0440\u0438\u0454\u043c\u0441\u0442\u0432\u043e",
+   "label": "\u041f\u0456\u0434\u043f\u0440\u0438\u0454\u043c\u0441\u0442\u0432\u043e ",
    "options": "Pass Enterprise",
    "search_index": 1
   },
@@ -110,7 +112,7 @@
    "fieldname": "enterprice_manager",
    "fieldtype": "Link",
    "label": "\u0417\u0430\u043c\u043e\u0432\u043d\u0438\u043a \u0440\u043e\u0431\u0456\u0442",
-   "options": "Pass Auditor"
+   "options": "Pass Enterprise"
   },
   {
    "fetch_from": "enterprise.tax_id",
@@ -122,11 +124,21 @@
   {
    "fieldname": "section_break_bhya",
    "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_tcxx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "enterprice_manager.tax_id",
+   "fieldname": "enterprice_manager_tax_id",
+   "fieldtype": "Data",
+   "label": "\u0404\u0414\u0420\u041f\u041e\u0423"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-12-10 20:29:01.550451",
+ "modified": "2024-12-10 21:39:42.705379",
  "modified_by": "Administrator",
  "module": "Pass Ova",
  "name": "Pass Customers",

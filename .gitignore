@@ -3,5 +3,18 @@
 *.egg-info
 *.swp
 tags
+pass_ova/public/dist
+pass_ova/public/node_modules
+pass_ova/docs/current
 node_modules
+dist/
 __pycache__
+
+# build/
+.vscode
+.vs
+node_modules
+*debug.log
+pass_ova/docs/current
+pass_ova/public/frontend
+pass_ova/www/pass_ova.html

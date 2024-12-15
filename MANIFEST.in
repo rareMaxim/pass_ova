@@ -1,0 +1,17 @@
+include MANIFEST.in
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include pass_ova *.css
+recursive-include pass_ova *.csv
+recursive-include pass_ova *.html
+recursive-include pass_ova *.ico
+recursive-include pass_ova *.js
+recursive-include pass_ova *.json
+recursive-include pass_ova *.md
+recursive-include pass_ova *.png
+recursive-include pass_ova *.py
+recursive-include pass_ova *.svg
+recursive-include pass_ova *.txt
+recursive-exclude pass_ova *.pyc

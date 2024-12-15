@@ -1,0 +1,26 @@
+{
+  "private": true,
+  "name": "pass_ova",
+  "description": "Перепустки для ОВА",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rareMaxim/pass_ova.git"
+  },
+  "homepage": "https://mlt.gov.ua",
+  "author": "Maxim Sysoiev",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/rareMaxim/pass_ova/issues"
+  },
+  "workspaces": ["frontend", "roster", "frappe-ui"],
+  "scripts": {
+    "postinstall": "yarn install-pwa-deps",
+    "install-pwa-deps": "cd frontend && yarn install --check-files",
+    "dev-pwa": "cd frontend && yarn dev",
+    "build": "yarn build-pwa",
+    "build-pwa": "cd frontend && yarn build"
+  },
+  "dependencies": {
+    "html2canvas": "^1.4.1"
+  }
+}

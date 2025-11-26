@@ -18,3 +18,4 @@ node_modules
 pass_ova/docs/current
 pass_ova/public/frontend
 pass_ova/www/pass_ova.html
+yarn.lock

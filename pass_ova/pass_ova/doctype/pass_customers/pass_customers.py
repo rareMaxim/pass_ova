@@ -20,6 +20,7 @@ class PassCustomers(Document):
 		enterprice_manager_tax_id: DF.Data | None
 		enterprise: DF.Link | None
 		full_name: DF.Data | None
+		is_wanted: DF.Check
 		passport: DF.SmallText | None
 		tax_id: DF.Data | None
 		term_work_execution: DF.Date | None
